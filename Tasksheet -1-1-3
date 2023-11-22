@@ -1,0 +1,11 @@
+public class NumberCheck {
+    public static void main(String[] args) {
+        int Check_number = 10; // Initializing the Check_number variable with a value of 10
+        String Message;
+
+        for (int i = 1; i <= Check_number; i++) {
+            Message = (i % 2 == 0) ? i + " is even number" : i + " is odd number";
+            System.out.println(Message);
+        }
+    }
+}
